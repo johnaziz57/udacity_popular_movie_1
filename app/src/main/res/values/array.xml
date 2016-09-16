@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_values">
+        <item>@string/sortby_rating_value</item>
+        <item>@string/sortby_date_value</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="entries">
+        <item>@string/sortby_rating</item>
+        <item>@string/sortby_date</item>
+    </string-array>
+</resources>

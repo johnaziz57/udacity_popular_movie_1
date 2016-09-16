@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="@string/sortby_key"
+        android:defaultValue="@string/sortby_date_value"
+        android:title="@string/sortby_title"
+        android:entries="@array/entries"
+        android:entryValues="@array/entries_values"/>
+    <CheckBoxPreference
+        android:key="@string/includeadult_key"
+        android:defaultValue="false"
+        android:title="@string/includeaudlt_title"/>
+</PreferenceScreen>
